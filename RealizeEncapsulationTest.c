@@ -48,7 +48,7 @@ int main(int argc,char **argv)
 	tParaOpr.SetPara(strIp,wPort);
 	tParaOpr.GetPara(strIp,STRING_MAX_LEN,&wPort);
 	printf("AfterSet,IP:%s,Port:%d\r\n",strIp,wPort);
-	//私有变量在外部，虽然没静态但破坏了封装性
+	//私有变量在外部，虽然没静态但破坏了封装性,所以上一种更好
 	char strIpValue[STRING_MAX_LEN];
 	unsigned short wPortValue;
 	T_NetParaOpr tNetParaOpr=newNetParaOpr(strIpValue,wPortValue);//创建实例化对象	，传入变量

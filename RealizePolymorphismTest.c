@@ -2,7 +2,7 @@
 * Copyright (C) 2017-2018 Hanson Yu  All rights reserved.
 ------------------------------------------------------------------------------
 * File Module		: 	RealizePolymorphismTest.c
-* Description		: 	多态:相同形式,各种不同状态(具体处理可不同)
+* Description		: 	多态:类似(几乎相同)的形式,各种不同的状态(具体处理可不同)
 book@book-desktop:/work/projects/test$ gcc -o RealizePolymorphismTest RealizeEncapsulation.c RealizePolymorphism.c RealizePolymorphismTest.c 
 book@book-desktop:/work/projects/test$ ./RealizePolymorphismTest 
 GetPara:13677905555,Port:12346
